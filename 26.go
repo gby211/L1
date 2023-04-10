@@ -8,7 +8,7 @@ import (
 func main() {
 
 	fmt.Println(uniqueChars("abcd"))      //true
-	fmt.Println(uniqueChars("abCdefAaf")) // false
+	fmt.Println(uniqueChars("abCdefAaf")) //false
 	fmt.Println(uniqueChars("aabcd"))     //false
 
 }

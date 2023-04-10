@@ -14,7 +14,8 @@ func main() {
 		}
 	}()
 
-	timeout := 5 * time.Second
+	const n = 5
+	timeout := n * time.Second
 	timer := time.NewTimer(timeout)
 	defer timer.Stop()
 

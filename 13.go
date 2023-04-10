@@ -14,3 +14,11 @@ func main() {
 
 	fmt.Printf("a = %d, b = %d\n", a, b)
 }
+
+//func main() {
+//	a := 5
+//	b := 8
+//
+//	a,b = b, a
+//	fmt.Printf(" a = %d, b = %d\n", a, b)
+//}
